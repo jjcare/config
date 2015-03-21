@@ -1,0 +1,104 @@
+Abaddon™
+ 
+- Copyright -
+Abaddon" v1.0 - Copyright 1994, David F. Nalle - Scriptorium Font Library - To register and get the latest version plus a sampler disk with many other fonts send $15 to Ragnarok, POB 140333, Austin, TX  78714.
+
+ 
+- Unique identifier -
+Altsys Fontographer 4.0 Abaddon"
+
+ 
+- Trademark -
+
+
+ 
+- Version -
+Altsys Fontographer 4.0 1/4/95
+
+Font Family:Abaddon"
+Full Name:Abaddon"
+Style:Regular
+Postscript Name:Abaddon
+ 
+- File data -
+E:\My Documents\HTML Development\New Fonts\film\abaddon.TTF
+Date : 24 August 1997
+Time  : 10:09:24
+Size : 25884 Byte
+
+C:\WINDOWS\TEMP\fot\abaddon.FOT
+Date : 26 August 1997
+Time  : 13:29:48
+Size : 1312 Byte
+
+ 
+- Windows metric data -
+IBM font class:   No Classification
+Font subclass:  
+Vendor Name:   Altsys
+Licence:  The font is licensed. Licensed fonts must not be modified or exchanged.The font may not be embedded in a document.
+
+
+ 
+- Panose classification -
+Family Type :  Any
+Serif style :  Any
+Weight :  Thin
+Proportion :  Any
+Contrast :  Any
+Stroke Variation :  Any
+Arm Style :  Any
+Letter form :  Any
+Midline Style :  Any
+X-Height :  Any
+
+ 
+- Metric data -
+Heigth of the character cell:              88
+Units above the base line:         83
+Units below the base line:        5
+Internal leading       : -12
+Space between rows:           15
+First defined ANSI-value:   »«  ALT+31
+Last defined ANSI-value:  »ÿ«  ALT+255
+Display of undefined characters: »«  ALT+31
+Wordbreak defined by:     » «  ALT+32
+KerningPairs:      0
+Weight of the font (normal=400):          400
+Average letter width:        44
+Maximum letter width:              75
+Character font:                     ANSI
+Designed for aspect ratio:            96 : 96
+Current aspect ratio:                 0 : 0
+
+ 
+- TrueType file structure -
+Character mapping : 1042 Byte
+Glyph data : 18008 Byte
+Font header : 54 Byte
+Horizontal header : 36 Byte
+Horizontal metrics : 776 Byte
+Index to location : 780 Byte
+Maximum profile : 32 Byte
+Name, Copyright : 1161 Byte
+PostScript : 426 Byte
+OS/2-Windows : 78 Byte
+Control Value : not included
+Font program : 20 Byte
+Horizontal Hints : 3144 Byte
+Kerning : not included
+Linear threshold : not included
+Height Change : 57 Byte
+Reserved : not included
+Vertical Hints : not included
+Reserved : not included
+PCL-5 Table : not included
+
+New in Windows 95 / NT
+Embedded bitmap : not included
+Embedded bitmap : not included
+Embedded bitmap : not included
+Grid Scan-conversion : not included
+Vertical Layout : not included
+Vertical Layout : not included
+ÀÉ
