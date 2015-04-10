@@ -16,6 +16,9 @@ shopt -s histappend
 HISTSIZE=1000
 HISTFILESIZE=2000
 
+# set the PATH variable to include local scripts
+PATH=$HOME/sbin:$PATH ; export PATH
+
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
 shopt -s checkwinsize
@@ -91,6 +94,8 @@ alias fnd='find / -name'
 alias mkdir='mkdir -p'
 alias apget='sudo apt-get -y install'
 alias apup='sudo apt-get update; sudo apt-get upgrade'
+alias srv='setproject.sh'
+alias xfix='xrandr -s 1680x1050'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert

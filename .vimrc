@@ -11,7 +11,7 @@ endif
 let g:Powerline_symbols = 'fancy'
 
 let g:lightline = {
-      \ 'colorscheme': 'torte',
+      \ 'colorscheme': 'wombat',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ], [ 'fugitive', 'filename' ], ['ctrlpmark'] ],
       \   'right': [ [ 'syntastic', 'lineinfo' ], ['percent'], [ 'fileformat', 'fileencoding', 'filetype' ] ]
@@ -133,24 +133,23 @@ endfunction
 
 augroup AutoSyntastic
     autocmd!
-    autocmd BufWritePost *.c,*.cpp call s:syntastic()
+    autocmd BufWritePost *.js,*.php call s:syntastic()
+    " not sure these are supported: .js .php
 augroup END
+
 function! s:syntastic()
     SyntasticCheck
     call lightline#update()
 endfunction
 
-let g:unite_force_overwrite_statusline = 0
-let g:vimfiler_force_overwrite_statusline = 0
-let g:vimshell_force_overwrite_statusline = 0
+"let g:unite_force_overwrite_statusline = 0
+"let g:vimfiler_force_overwrite_statusline = 0
+"let g:vimshell_force_overwrite_statusline = 0
 
 autocmd! bufwritepost .vimrc source %
 
 
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
+"let g:syntastic_check_on_wq = 0
 
 let mapleader = ","
 nnoremap Q q
