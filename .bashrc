@@ -16,6 +16,9 @@ shopt -s histappend
 HISTSIZE=1000
 HISTFILESIZE=2000
 
+# use vim editing for command line
+#set -o vi
+
 # set the PATH variable to include local scripts
 PATH=$HOME/sbin:$PATH ; export PATH
 
@@ -119,7 +122,7 @@ fi
 
 # from git course ubicity, show git status in prompt
 # Enable tab completion
-source ~/git-completion.bash
+source ~/.git-completion.bash
 
 # colors
 green="\[\033[0;32m\]"
@@ -128,7 +131,7 @@ purple="\[\033[0;35m\]"
 reset="\[\033[0m\]"
 
 #change command prompt
-source ~/git-prompt.sh
+source ~/.git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE=1
 # '\u' adds the name of the current user to the prompt
 # '\$(__git_ps1)' adds git-related stuff
