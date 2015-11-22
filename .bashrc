@@ -96,7 +96,7 @@ alias l='ls -CF'
 alias fnd='find / -name'
 alias mkdir='mkdir -p'
 alias apget='sudo apt-get -y install'
-alias apup='sudo apt-get update; sudo apt-get upgrade'
+alias apup='sudo apt-get update; sudo apt-get -y upgrade; tail -4 /var/log/apt/history.log'
 alias srv='setproject.sh'
 alias xfix='xrandr -s 1680x1050'
 
