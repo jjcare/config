@@ -1,0 +1,11 @@
+[color]
+	ui = auto
+[core]
+	editor = vim
+[push]
+	default = upstream
+[merge]
+	conflictstyle = diff3
+[user]
+	name = John Carey
+	email = jjcare23@gmail.com

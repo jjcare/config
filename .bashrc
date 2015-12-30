@@ -22,6 +22,12 @@ HISTFILESIZE=2000
 # set the PATH variable to include local scripts
 PATH=$HOME/sbin:$PATH ; export PATH
 
+# change capslock to escape - who needs it anyway
+xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
+
+# make vim default visual editor
+export EDITOR=vim
+
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
 shopt -s checkwinsize
@@ -96,7 +102,7 @@ alias l='ls -CF'
 alias fnd='find / -name'
 alias mkdir='mkdir -p'
 alias apget='sudo apt-get -y install'
-alias apup='sudo apt-get update; sudo apt-get upgrade'
+alias apup='sudo apt-get update; sudo apt-get -y upgrade; tail -4 /var/log/apt/history.log'
 alias srv='setproject.sh'
 alias xfix='xrandr -s 1680x1050'
 
