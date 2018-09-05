@@ -9,3 +9,7 @@
 [user]
 	name = John Carey
 	email = jjcare23@gmail.com
+[alias]
+	l = log --format=oneline --graph
+	s = status
+	co = commit
